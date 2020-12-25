@@ -1,4 +1,4 @@
-# postIt
+# Post-It
 
 A new Flutter project.
 
