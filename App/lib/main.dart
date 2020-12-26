@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todoapp/UI/Login/loginscreen.dart';
-import 'package:todoapp/bloc/resources/repository.dart';
+import 'package:postIt/UI/Login/loginscreen.dart';
+import 'package:postIt/bloc/resources/repository.dart';
 import 'UI/Intray/intray_page.dart';
 import 'models/global.dart';
 import 'package:http/http.dart' as http;
-import 'package:todoapp/models/classes/user.dart';
-import 'package:todoapp/bloc/blocs/user_bloc_provider.dart';
+import 'package:postIt/models/classes/user.dart';
+import 'package:postIt/bloc/blocs/user_bloc_provider.dart';
 
 void main() => runApp(MyApp());
 
