@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:http/http.dart' show Client;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todoapp/models/classes/task.dart';
+import 'package:postIt/models/classes/task.dart';
 import 'dart:convert';
-import 'package:todoapp/models/classes/user.dart';
+import 'package:postIt/models/classes/user.dart';
 
 class ApiProvider {
   Client client = Client();

@@ -1,8 +1,8 @@
-import 'package:todoapp/models/classes/task.dart';
+import 'package:postIt/models/classes/task.dart';
 
 import '../resources/repository.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:todoapp/models/classes/user.dart';
+import 'package:postIt/models/classes/user.dart';
 
 class UserBloc {
   final _repository = Repository();
