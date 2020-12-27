@@ -1,5 +1,5 @@
-import 'package:post-it/enums.dart';
-import 'package:post-it/models/menu_info.dart';
+import 'package:postIt/enums.dart';
+import 'package:postIt/models/menu_info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:provider/provider.dart';
