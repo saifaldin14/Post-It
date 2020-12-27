@@ -1,4 +1,4 @@
-import 'package:clock_app/models/alarm_info.dart';
+import 'package:postIt/models/alarm_info.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
 
