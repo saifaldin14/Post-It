@@ -38,7 +38,13 @@ class _IntrayPageState extends State<IntrayPage> {
               if (snapshot.data.length > 0) {
                 return _buildReorderableListSimple(context, snapshot.data);
               } else if (snapshot.data.length == 0) {
-                return Center(child: Text('No Data'));
+                return Center(
+                    child: Text(
+                  'No Data',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ));
               }
             } else if (snapshot.hasError) {
               return Container();
