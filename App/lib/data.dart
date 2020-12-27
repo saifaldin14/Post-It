@@ -5,7 +5,7 @@ import 'models/menu_info.dart';
 
 List<MenuInfo> menuItems = [
   MenuInfo(MenuType.clock,
-      title: 'Clock', imageSource: 'assets/clock_icon.png'),
+      title: 'Clock', imageSource: 'postIt/assets/clock_icon.png'),
   MenuInfo(MenuType.alarm,
       title: 'Alarm', imageSource: 'assets/alarm_icon.png'),
   MenuInfo(MenuType.timer,
